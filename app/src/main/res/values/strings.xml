@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Lets Get  Placed</string>
+    <string name="default_notification_channel_id">1</string>
     <string name="signuphint">Not a registerd user? Sign up</string>
     <string name="sign_in">Sign In</string>
     <string name="lets_get_placed">Lets get placed</string>
     <string name="goldstr">Goldman Sachs is one of the world’s biggest financial groups, which provides a variety of financial services, such as investment management, banking, securities, etc.</string>
+    <string name="microsoft">Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops electronics, personal computers, and related services.</string>
+    <string name="amazon">Amazon.com, Inc., is an American multinational technology company based in Seattle, Washington that focuses in e-commerce, cloud computing, and artificial intelligence.</string>
+    <string name="jpmc">JPMorgan Chase and Co. is a leading global financial services firm and one of the largest banking institutions in the United States, with operations worldwide.</string>
+    <string name="samsung">Samsung Group is a South Korean multinational conglomerate headquartered in Samsung Town, Seoul. It comprises numerous affiliated businesses, most of them united under the Samsung brand.</string>
 </resources>

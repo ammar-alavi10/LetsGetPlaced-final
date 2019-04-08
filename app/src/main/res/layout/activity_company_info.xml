@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bglog"
     tools:context=".CompanyInfo">
 
     <ScrollView
@@ -22,44 +23,212 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardBackgroundColor="#fff"
-            card_view:cardCornerRadius="8dp"
-            card_view:cardElevation="8dp">
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
 
-                <ImageView
-                    android:id="@+id/imgview"
-                    android:layout_width="1500dp"
-                    android:layout_height="100dp"
-                    android:layout_alignParentTop="true"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:paddingRight="5dp"
-                    android:paddingBottom="5dp"
-                    android:src="@drawable/goldman_1"
-                    android:textStyle="bold" />
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#f7f8f8"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/imgview"
-                    android:text="@string/goldstr"
-                    android:layout_marginTop="10dp"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"/>
-            </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
 
-        </android.support.v7.widget.CardView>
+                    <ImageView
+                        android:id="@+id/iv1"
+                        android:layout_width="1500dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentTop="true"
+                        android:cropToPadding="true"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/goldman_1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv1"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/goldstr" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#f7f8f8"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/iv2"
+                        android:layout_width="1500dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/microsoft"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv2"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/microsoft" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#f7f8f8"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/iv3"
+                        android:layout_width="1500dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/amazon"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv3"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/amazon" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#f7f8f8"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/iv4"
+                        android:layout_width="1500dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jpmc"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv4"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/jpmc" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#f7f8f8"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@+id/iv5"
+                        android:layout_width="1500dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentTop="true"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/samsung"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv5"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/samsung" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
         </LinearLayout>
     </ScrollView>
 
